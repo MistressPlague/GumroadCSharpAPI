@@ -11,11 +11,13 @@ namespace Gumroad_API
         {
             Console.WriteLine("Please Enter Your Token.");
 
-            var API = new GumroadAPI(Console.ReadLine());
+            var Token = Console.ReadLine();
 
             Console.Clear();
 
             Console.WriteLine("Initializing..");
+
+            var API = new GumroadAPI(Token);
 
             API.OnSaleNotification += (sales) => // Only Monitors Since Prev Day
             {
