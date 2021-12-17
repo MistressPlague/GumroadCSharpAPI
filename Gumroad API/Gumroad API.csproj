@@ -54,22 +54,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gumroad\GumroadAPI.cs" />
-    <Compile Include="Gumroad\GumroadConstants.cs" />
-    <Compile Include="Gumroad\GumroadExtensions.cs" />
-    <Compile Include="Gumroad\IGumroadApi.cs" />
-    <Compile Include="Gumroad\Models\GumroadProduct.cs" />
-    <Compile Include="Gumroad\Models\GumroadSaleVariant.cs" />
-    <Compile Include="Gumroad\Models\GumroadSale.cs" />
-    <Compile Include="Gumroad\Models\GumroadSubscriber.cs" />
-    <Compile Include="Gumroad\Models\GumroadUser.cs" />
-    <Compile Include="Gumroad\QueryMap.cs" />
-    <Compile Include="Gumroad\Requests\GetSalesParams.cs" />
-    <Compile Include="Gumroad\Responses\GetProductResponse.cs" />
-    <Compile Include="Gumroad\Responses\GetProductsResponse.cs" />
-    <Compile Include="Gumroad\Responses\GetSalesResponse.cs" />
-    <Compile Include="Gumroad\Responses\GetSubscriptionsResponse.cs" />
-    <Compile Include="Gumroad\Responses\GetUserResponse.cs" />
+    <Compile Include="Gumroad API\GumroadAPI.cs" />
+    <Compile Include="Gumroad API\GumroadConstants.cs" />
+    <Compile Include="Gumroad API\GumroadExtensions.cs" />
+    <Compile Include="Gumroad API\IGumroadApi.cs" />
+    <Compile Include="Gumroad API\Models\GumroadProduct.cs" />
+    <Compile Include="Gumroad API\Models\GumroadSaleVariant.cs" />
+    <Compile Include="Gumroad API\Models\GumroadSale.cs" />
+    <Compile Include="Gumroad API\Models\GumroadSubscriber.cs" />
+    <Compile Include="Gumroad API\Models\GumroadUser.cs" />
+    <Compile Include="Gumroad API\QueryMap.cs" />
+    <Compile Include="Gumroad API\Requests\GetSalesParams.cs" />
+    <Compile Include="Gumroad API\Responses\GetProductResponse.cs" />
+    <Compile Include="Gumroad API\Responses\GetProductsResponse.cs" />
+    <Compile Include="Gumroad API\Responses\GetSalesResponse.cs" />
+    <Compile Include="Gumroad API\Responses\GetSubscriptionsResponse.cs" />
+    <Compile Include="Gumroad API\Responses\GetUserResponse.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
