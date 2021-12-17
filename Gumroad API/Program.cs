@@ -13,6 +13,10 @@ namespace Gumroad_API
 
             var API = new GumroadAPI(Console.ReadLine());
 
+            Console.Clear();
+
+            Console.WriteLine("Initializing..");
+
             API.OnSaleNotification += (sales) => // Only Monitors Since Prev Day
             {
                 Console.WriteLine("Sale Update! ->\n" + JsonConvert.SerializeObject(sales));
