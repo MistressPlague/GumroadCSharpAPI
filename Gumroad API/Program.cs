@@ -27,11 +27,17 @@ namespace Gumroad_API
                 Console.WriteLine($"{product.Name} Subscription Update! ->\n" + JsonConvert.SerializeObject(subscriptions));
             };
 
+            Console.WriteLine("Ready!");
+
             while (Console.ReadLine() is var line)
             {
                 if (line != null)
                 {
-                    if (line.StartsWith("GetProducts"))
+                    if (line == "cls")
+                    {
+                        Console.Clear();
+                    }
+                    else if (line.StartsWith("GetProducts"))
                     {
                         var response = API.gumroad.GetProductsAsync(API.token).Result;
 
