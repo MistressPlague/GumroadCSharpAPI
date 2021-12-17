@@ -2,6 +2,7 @@
 using Plague.Gumroad;
 using System;
 using System.Linq;
+using System.Threading;
 
 namespace Gumroad_API
 {
@@ -16,6 +17,8 @@ namespace Gumroad_API
             Console.Clear();
 
             Console.WriteLine("Initializing..");
+
+            Thread.Sleep(500);
 
             var API = new GumroadAPI(Token);
 
