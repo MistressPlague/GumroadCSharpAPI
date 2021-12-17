@@ -54,7 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gumroad API\GumroadAPI.cs" />
+    <Compile Include="Gumroad\GumroadAPI.cs" />
     <Compile Include="Gumroad\GumroadConstants.cs" />
     <Compile Include="Gumroad\GumroadExtensions.cs" />
     <Compile Include="Gumroad\IGumroadApi.cs" />
