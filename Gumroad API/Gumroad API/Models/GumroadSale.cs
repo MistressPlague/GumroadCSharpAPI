@@ -12,10 +12,10 @@ namespace Plague.Gumroad
         public string Email { get; set; }
         [JsonProperty("seller_id")]
         public string SellerID { get; set; }
-        [JsonProperty("timestamp")]
-        public string Timestamp { get; set; }
-        [JsonProperty("daystamp")]
-        public string Daystamp { get; set; }
+        //[JsonProperty("timestamp")]
+        //public string Timestamp { get; set; }
+        //[JsonProperty("daystamp")]
+        //public string Daystamp { get; set; }
         [JsonProperty("created_at")]
         public DateTime CreatedAt { get; set; }
         [JsonProperty("product_name")]
